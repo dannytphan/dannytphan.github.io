@@ -10218,11 +10218,6 @@ header.masthead h1 {
   margin-right: 10rem;
 }
 
-.project-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
 
 .project-title {
   text-align: center;
@@ -10233,6 +10228,8 @@ header.masthead h1 {
 .project-info {
   text-align: center;
   font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .project-links {
@@ -10270,6 +10267,18 @@ header.masthead h1 {
   width: 50px;
 }
 
+.portfolio-box > img {
+  min-width: 400px;
+  min-height: 228px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-width: 400px;
+  min-height: 228px;
+}
 /* .skills-container > img {
   vertical-align: middle;
   width: 100%;
